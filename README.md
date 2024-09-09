@@ -23,7 +23,7 @@ friend istream& operator>>(istream&i,bn&b);
 ```
 There is also a test program `testcpp.cpp`, that tests two bignums.
 
-In tiny-bignum-c, the size of bignums is fixed, but you can redefine `BN_ARRAY_SIZE` to change the size in tiny-bignum-c-but-altered
+In tiny-bignum-c, the size of bignums is fixed, but you can redefine `BN_ARRAY_SIZE` in both your program and `bn.c` to change the size in tiny-bignum-c-but-altered.
 ## Build
 Run the `build.bat` batch file to build because none-None1 doesn't know how to write Makefiles. It uses MinGW but you can manually build using other compilers.
 
